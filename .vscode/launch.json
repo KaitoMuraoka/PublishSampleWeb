@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:makeSite}",
+            "name": "Debug MakeSite",
+            "program": "${workspaceFolder:makeSite}/.build/debug/MakeSite",
+            "preLaunchTask": "swift: Build Debug MakeSite"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:makeSite}",
+            "name": "Release MakeSite",
+            "program": "${workspaceFolder:makeSite}/.build/release/MakeSite",
+            "preLaunchTask": "swift: Build Release MakeSite"
+        }
+    ]
+}
